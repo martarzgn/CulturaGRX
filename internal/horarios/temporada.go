@@ -10,5 +10,5 @@ type DiaDelAnio struct {
 type Temporada struct {
 	desde          DiaDelAnio
 	hasta          DiaDelAnio
-	horarioSemanal HorarioSemanal
+	horarioSemanal map[time.Weekday][]FranjaDeApertura
 }
