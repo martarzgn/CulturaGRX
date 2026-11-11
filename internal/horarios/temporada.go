@@ -3,14 +3,14 @@ package horarios
 import "time"
 
 type DiaDelAnio struct {
-	Mes time.Month
-	Dia uint8
+	mes time.Month
+	dia uint8
 }
 
 type Temporada struct {
-	Desde          DiaDelAnio
-	Hasta          DiaDelAnio
-	HorarioSemanal HorarioSemanal
+	desde          DiaDelAnio
+	hasta          DiaDelAnio
+	horarioSemanal HorarioSemanal
 }
 
 type Horario []Temporada
