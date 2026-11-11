@@ -12,5 +12,3 @@ type Temporada struct {
 	hasta          DiaDelAnio
 	horarioSemanal HorarioSemanal
 }
-
-type Horario []Temporada
