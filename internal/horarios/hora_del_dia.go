@@ -1,6 +1,6 @@
 package horarios
 
 type HoraDelDia struct {
-	Hora   uint8
-	Minuto uint8
+	hora   uint8
+	minuto uint8
 }

@@ -1,7 +1,7 @@
 package horarios
 
 type FranjaDeApertura struct {
-	Apertura      HoraDelDia
-	Cierre        HoraDelDia
+	apertura      HoraDelDia
+	cierre        HoraDelDia
 	UltimaEntrada *HoraDelDia
 }
