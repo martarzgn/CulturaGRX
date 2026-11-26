@@ -1,5 +1,5 @@
 package horarios
 
 type SitiosDeGranada struct {
-	horarios map[string][]Temporada
+	horarios map[string]HorarioDelSitio
 }
