@@ -1,5 +1,6 @@
 package horarios
 
 type HorarioDelSitio struct {
-	temporadas []Temporada
+	temporadas   []Temporada
+	diasCerrados map[Fecha]struct{}
 }
